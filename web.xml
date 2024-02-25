@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<display-name>deleteServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.adminServlet.deleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DoctorLogin</servlet-name>
+  	<display-name>DoctorLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.doctorServlet.DoctorLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DoctorLogout</servlet-name>
+  	<display-name>DoctorLogout</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.doctorServlet.DoctorLogout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AppointmentServlet</servlet-name>
+  	<display-name>AppointmentServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.userServlet.AppointmentServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateStatus</servlet-name>
+  	<display-name>UpdateStatus</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.doctorServlet.UpdateStatus</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>changePassword</servlet-name>
+  	<display-name>changePassword</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.userServlet.changePassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DoctorPasswordChange</servlet-name>
+  	<display-name>DoctorPasswordChange</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.doctorServlet.DoctorPasswordChange</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditProfile</servlet-name>
+  	<display-name>EditProfile</display-name>
+  	<description></description>
+  	<servlet-class>com.hospital.doctorServlet.EditProfile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>deleteServlet</servlet-name>
+  	<url-pattern>/deleteServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DoctorLogin</servlet-name>
+  	<url-pattern>/DoctorLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DoctorLogout</servlet-name>
+  	<url-pattern>/DoctorLogout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AppointmentServlet</servlet-name>
+  	<url-pattern>/AppointmentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateStatus</servlet-name>
+  	<url-pattern>/UpdateStatus</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>changePassword</servlet-name>
+  	<url-pattern>/changePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DoctorPasswordChange</servlet-name>
+  	<url-pattern>/DoctorPasswordChange</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditProfile</servlet-name>
+  	<url-pattern>/EditProfile</url-pattern>
+  </servlet-mapping>
+</web-app>
